@@ -1,0 +1,338 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumen Dental</title>
+<meta name="description" content="Gentle, modern dentistry for the whole family. Book a visit with Lumen Dental.">
+<meta name="theme-color" content="#0a1012">
+<script>
+  /* Safety net: never leave a visitor stuck behind the intro, even if a CDN script is slow or blocked */
+  document.documentElement.classList.add("js");
+  setTimeout(function () { document.documentElement.classList.add("ready"); }, 4500);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+<link rel="preload" as="image" href="assets/poster.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="loader" aria-hidden="true"><span class="brand__mark"></span><span>Lumen Dental</span></div>
+<div class="progress" aria-hidden="true"></div>
+
+<nav class="nav" aria-label="Primary">
+  <a class="brand" href="#top"><span class="brand__mark" aria-hidden="true"></span>Lumen Dental</a>
+  <div class="nav__links">
+    <a href="#treatments">Treatments</a>
+    <a href="#approach">Approach</a>
+    <a href="#team">Team</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#visit">Visit</a>
+  </div>
+  <div class="nav__right">
+    <a class="btn btn--primary btn--sm" href="#book" data-magnetic>Book a visit <span class="btn__icon"><i class="ph-light ph-arrow-up-right"></i></span></a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</nav>
+<div class="menu" id="menu">
+  <a href="#treatments">Treatments</a><a href="#approach">Approach</a><a href="#team">Team</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+</div>
+
+<!-- Hero -->
+<header class="hero" id="top">
+  <div class="hero__media" aria-hidden="true">
+    <video class="is-active" src="assets/hero.mp4" poster="assets/poster.jpg" muted playsinline autoplay preload="auto" disablepictureinpicture></video>
+    <video src="assets/hero.mp4" muted playsinline preload="auto" disablepictureinpicture></video>
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__content">
+    <div class="hero__inner">
+      <p class="pill-tag rise" style="--i:0">Now welcoming new patients</p>
+      <h1>
+        <span class="line"><span style="--i:1">A healthier smile,</span></span>
+        <span class="line"><span style="--i:2"><em>without the dread.</em></span></span>
+      </h1>
+      <p class="sub rise" style="--i:3">Gentle, modern dentistry for the whole family, with same-week appointments.</p>
+      <div class="cta rise" style="--i:4">
+        <a class="btn btn--primary" href="#book" data-magnetic>Book a visit <span class="btn__icon"><i class="ph-light ph-arrow-up-right"></i></span></a>
+        <a class="btn btn--ghost" href="#treatments">Explore treatments</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- Statement + stats -->
+<section class="statement">
+  <div class="wrap">
+    <p data-words>We believe a great dental visit should feel like nothing happened at all. You walk in unsure, and walk out <span class="hl">smiling.</span></p>
+    <!-- Placeholder figures: replace with your real numbers -->
+    <div class="stats">
+      <div class="stat reveal"><b data-count="4.9" data-dec="1">4.9</b><span>Average patient rating</span></div>
+      <div class="stat reveal" style="--d:1"><b data-count="11">11</b><span>Years in practice</span></div>
+      <div class="stat reveal" style="--d:2"><b data-count="7300" data-sep="1">7,300</b><span>Smiles treated</span></div>
+      <div class="stat reveal" style="--d:3"><b data-count="2">2</b><span>Days to your first visit</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Whitening<i class="ph-light ph-sparkle"></i>Implants<i class="ph-light ph-sparkle"></i>Clear aligners<i class="ph-light ph-sparkle"></i>Check-ups<i class="ph-light ph-sparkle"></i>Emergency care<i class="ph-light ph-sparkle"></i>Family dentistry<i class="ph-light ph-sparkle"></i></span>
+    <span>Whitening<i class="ph-light ph-sparkle"></i>Implants<i class="ph-light ph-sparkle"></i>Clear aligners<i class="ph-light ph-sparkle"></i>Check-ups<i class="ph-light ph-sparkle"></i>Emergency care<i class="ph-light ph-sparkle"></i>Family dentistry<i class="ph-light ph-sparkle"></i></span>
+  </div>
+</div>
+
+<!-- Treatments -->
+<section class="sec" id="treatments">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Everything your smile needs, <em>under one roof.</em></h2>
+      <p class="lede">From routine check-ups to full restorations, planned around your comfort and your schedule.</p>
+    </div>
+    <div class="bento">
+      <article class="bezel t1 tile tile--img reveal" style="--d:0" data-spot>
+        <div class="core" style="--img:url('assets/photos/whitening.jpg'); --pos: 50% 40%">
+          <i class="ph-light ph-sparkle ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Teeth whitening</h3>
+          <p>Several shades brighter in a single visit, with enamel-safe gel and a calm, unhurried chair.</p>
+        </div>
+      </article>
+      <article class="bezel t2 tile tile--img reveal" style="--d:1" data-spot>
+        <div class="core" style="--img:url('assets/photos/checkup.jpg'); --pos: 50% 30%">
+          <i class="ph-light ph-tooth ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Check-ups and cleaning</h3>
+          <p>Thorough, gentle, and honest about what needs doing and what does not.</p>
+        </div>
+      </article>
+      <article class="bezel t3 tile tile--img reveal" style="--d:2" data-spot>
+        <div class="core" style="--img:url('assets/photos/uneven.jpg'); --pos: 50% 50%">
+          <i class="ph-light ph-align-center-horizontal ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Clear aligners</h3>
+          <p>Straighter teeth without the metal. Digital scans, no messy moulds.</p>
+        </div>
+      </article>
+      <article class="bezel t4 tile tile--img reveal" style="--d:1" data-spot>
+        <div class="core" style="--img:url('assets/photos/implant.jpg'); --pos: 50% 50%">
+          <i class="ph-light ph-shield-check ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Implants</h3>
+          <p>Crowns and implants built to look like they were always yours.</p>
+        </div>
+      </article>
+      <article class="bezel t5 tile tile--img reveal" style="--d:2" data-spot>
+        <div class="core" style="--img:url('assets/photos/veneers.jpg'); --pos: 50% 50%">
+          <i class="ph-light ph-diamond ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Veneers and bonding</h3>
+          <p>Fix chips, gaps and shape in one or two visits.</p>
+        </div>
+      </article>
+      <article class="bezel t6 tile tile--img reveal" style="--d:3" data-spot>
+        <div class="core" style="--img:url('assets/photos/dentist-focus.jpg'); --pos: 50% 35%">
+          <i class="ph-light ph-first-aid-kit ico"></i><span class="go"><i class="ph-light ph-arrow-up-right"></i></span>
+          <h3>Emergency care</h3>
+          <p>Call before noon and we will see you the same day.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Before / after -->
+<section class="sec sec--tint" id="results">
+  <div class="wrap ba">
+    <div class="reveal">
+      <h2>From stained to <em>radiant.</em></h2>
+      <p class="lede">Same smile, same day. Drag to see where we started, then choose how far to take it.</p>
+      <div class="chips" role="group" aria-label="Treatment level">
+        <button type="button" class="chip" data-level="0.5" data-label="After cleaning">Professional cleaning</button>
+        <button type="button" class="chip is-on" data-level="1" data-label="After whitening">Whitening treatment</button>
+      </div>
+      <div class="cta"><a class="btn btn--primary" href="#book" data-magnetic>Book a visit <span class="btn__icon"><i class="ph-light ph-arrow-up-right"></i></span></a></div>
+    </div>
+    <div class="reveal" style="--d:1">
+      <div class="bezel compare" id="compare">
+        <div class="core">
+          <canvas id="after-canvas" aria-label="Smile after treatment" role="img"></canvas>
+          <img class="before" src="assets/photos/stained.jpg" alt="Smile before treatment, with stained and yellowed teeth">
+          <div class="handle"><i class="ph-light ph-arrows-left-right"></i></div>
+          <input type="range" min="0" max="100" value="50" aria-label="Compare before and after treatment">
+        </div>
+      </div>
+      <div class="caps"><span>Before</span><span id="after-label">After whitening</span></div>
+      <p class="fine">Illustrative simulation on a stock photo. Individual results vary.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Approach -->
+<section class="sec" id="approach">
+  <div class="wrap split">
+    <div class="sticky-col reveal">
+      <p class="pill-tag">How we work</p>
+      <h2>Dentistry that <em>listens first.</em></h2>
+      <p class="lede">Most dental anxiety comes from feeling rushed or surprised. We do neither.</p>
+      <figure class="bezel photo"><div class="core"><img src="assets/photos/consult.jpg" alt="A dentist checking a smiling patient with a dental mirror" loading="lazy"></div></figure>
+    </div>
+    <div class="steps" id="steps">
+      <div class="rail" aria-hidden="true"><i></i></div>
+      <article class="bezel step reveal" data-spot>
+        <div class="core"><span class="ico-wrap"><i class="ph-light ph-chats-circle"></i></span>
+          <div><h3>Talk it through</h3><p>We start with a conversation, not a drill. Tell us what worries you and what you would like to change.</p></div></div>
+      </article>
+      <article class="bezel step reveal" data-spot>
+        <div class="core"><span class="ico-wrap"><i class="ph-light ph-scan"></i></span>
+          <div><h3>See your own scan</h3><p>A quick 3D scan shows exactly what we see, so every recommendation comes with a clear reason.</p></div></div>
+      </article>
+      <article class="bezel step reveal" data-spot>
+        <div class="core"><span class="ico-wrap"><i class="ph-light ph-heart"></i></span>
+          <div><h3>Treat at your pace</h3><p>Numbing gel first, breaks whenever you want them, and a written plan with prices before we begin.</p></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Team (portraits are stock photos: replace with your own) -->
+<section class="sec sec--tint" id="team">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="pill-tag">Our team</p>
+      <h2>Familiar faces, <em>every visit.</em></h2>
+    </div>
+    <div class="strips reveal" role="list">
+      <div class="strip active" role="listitem" tabindex="0" aria-expanded="true">
+        <img src="assets/photos/team-amara.jpg" alt="Dr. Amara Okafor working with magnifying loupes" style="object-position:40% 25%" loading="lazy">
+        <div class="strip__info"><b>Dr. Amara Okafor</b><span>Principal dentist, restorative care</span></div>
+      </div>
+      <div class="strip" role="listitem" tabindex="0" aria-expanded="false">
+        <img src="assets/photos/team-tomas.jpg" alt="Dr. Tomas Lindqvist smiling in the clinic" style="object-position:50% 30%" loading="lazy">
+        <div class="strip__info"><b>Dr. Tomas Lindqvist</b><span>Orthodontics and clear aligners</span></div>
+      </div>
+      <div class="strip" role="listitem" tabindex="0" aria-expanded="false">
+        <img src="assets/photos/team-priya.jpg" alt="Dr. Priya Raman in a white coat" style="object-position:55% 20%" loading="lazy">
+        <div class="strip__info"><b>Dr. Priya Raman</b><span>Children and family dentistry</span></div>
+      </div>
+      <div class="strip" role="listitem" tabindex="0" aria-expanded="false">
+        <img src="assets/photos/team-mateo.jpg" alt="Dr. Mateo Silva treating a patient" style="object-position:70% 30%" loading="lazy">
+        <div class="strip__info"><b>Dr. Mateo Silva</b><span>Implants and oral surgery</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2>Patients who used to <em>avoid the dentist.</em></h2></div>
+    <div class="reviews">
+      <figure class="bezel quote q1 reveal" data-spot><div class="core">
+        <div class="stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <blockquote>"I had not been in nine years. They showed me the scan, made a plan, and I never felt rushed."</blockquote>
+        <figcaption><img class="avatar" src="assets/photos/patient-daniel.jpg" alt="" loading="lazy"><span>Daniel Okoro<small>Patient since 2024</small></span></figcaption>
+      </div></figure>
+      <figure class="bezel quote q2 reveal" style="--d:1" data-spot><div class="core">
+        <div class="stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <blockquote>"My son used to cry at appointments. Dr. Raman has him asking when the next one is."</blockquote>
+        <figcaption><img class="avatar" src="assets/photos/patient-marguerite.jpg" alt="" loading="lazy"><span>Marguerite Eze<small>Parent of two</small></span></figcaption>
+      </div></figure>
+      <figure class="bezel quote q3 reveal" style="--d:2" data-spot><div class="core">
+        <div class="stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <blockquote>"Chipped a tooth on a Friday morning and was in the chair by two. Fixed and invisible."</blockquote>
+        <figcaption><img class="avatar" src="assets/photos/patient-hannah.jpg" alt="" loading="lazy"><span>Hannah Brandt<small>Emergency visit</small></span></figcaption>
+      </div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec--tint" id="faq">
+  <div class="wrap faq">
+    <div class="reveal">
+      <h2>Good questions, <em>straight answers.</em></h2>
+      <p class="lede">Anything else? Call the front desk and a real person will pick up.</p>
+      <figure class="bezel photo"><div class="core"><img src="assets/photos/team-work.jpg" alt="Two dentists treating a patient together" loading="lazy"></div></figure>
+    </div>
+    <div class="faq__list reveal" style="--d:1">
+      <details open><summary>Do you offer payment plans? <i class="ph-light ph-plus"></i></summary><p>Yes. Larger treatments can be spread over 6 to 24 months, interest-free, and you get the full price in writing before we start.</p></details>
+      <details><summary>Will it hurt? <i class="ph-light ph-plus"></i></summary><p>We numb the area with gel before any injection and pause whenever you ask. Most patients tell us it was easier than they expected.</p></details>
+      <details><summary>Can I bring my children? <i class="ph-light ph-plus"></i></summary><p>Absolutely. We see patients from age two and keep a quiet, toy-friendly room for first visits.</p></details>
+      <details><summary>Do you accept insurance? <i class="ph-light ph-plus"></i></summary><p>We work with most major providers and handle the claim paperwork for you. Mention your plan when booking.</p></details>
+      <details><summary>What if I have a dental emergency? <i class="ph-light ph-plus"></i></summary><p>Call before noon and we hold same-day slots for pain, swelling and broken teeth.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- Closing -->
+<section class="closer">
+  <div class="closer__bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="reveal">Your best smile is <em>one visit away.</em></h2>
+    <p class="reveal" style="--d:1">New patients are usually seen within two days.</p>
+    <div class="cta reveal" style="--d:2"><a class="btn btn--primary" href="#book" data-magnetic>Book a visit <span class="btn__icon"><i class="ph-light ph-arrow-up-right"></i></span></a></div>
+  </div>
+</section>
+
+<!-- Visit + booking -->
+<section class="sec sec--tint" id="visit">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="pill-tag">Visit us</p>
+      <h2>Ready when <em>you are.</em></h2>
+      <p class="lede">Pick a time that suits you. We will confirm by text within the hour.</p>
+    </div>
+    <div class="visit">
+      <aside class="bezel info reveal"><div class="core">
+        <img class="info__img" src="assets/photos/checkup.jpg" alt="" loading="lazy">
+        <dl>
+          <div><dt>Address</dt><dd>48 Kingsway Row<span>Suite 2, ground floor</span></dd></div>
+          <div><dt>Hours</dt><dd>Mon to Fri, 8am to 6pm<span>Saturday, 9am to 2pm</span></dd></div>
+          <div><dt>Call</dt><dd>(020) 7946 0381</dd></div>
+        </dl>
+      </div></aside>
+      <div class="bezel form reveal" id="book" style="--d:1"><div class="core">
+        <form id="book-form" novalidate>
+          <div class="row">
+            <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" placeholder="Jordan Ellis" required><span class="err">Please enter your name.</span></div>
+            <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="07700 900 412" required><span class="err">Please enter a phone number.</span></div>
+          </div>
+          <div class="row">
+            <div class="field"><label for="f-svc">Reason for visit</label>
+              <select id="f-svc" name="service" required>
+                <option value="">Choose one</option>
+                <option>Check-up and cleaning</option><option>Teeth whitening</option><option>Clear aligners</option><option>Implants and restorations</option><option>Emergency</option>
+              </select><span class="err">Please choose a reason.</span></div>
+            <div class="field"><label for="f-date">Preferred date</label><input id="f-date" name="date" type="date" required><span class="err">Please pick a date.</span></div>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit" data-magnetic>Book a visit <span class="btn__icon"><i class="ph-light ph-arrow-up-right"></i></span></button>
+          <p class="note">No payment needed to book. You can change or cancel by text.</p>
+        </form>
+        <div class="done" role="status">
+          <i class="ph-light ph-check-circle"></i>
+          <h3>Thanks, <span id="done-name"></span>.</h3>
+          <p>We have your request and will text you within the hour to confirm a time.</p>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#top"><span class="brand__mark" aria-hidden="true"></span>Lumen Dental</a>
+    <nav aria-label="Footer"><a href="#treatments">Treatments</a><a href="#approach">Approach</a><a href="#team">Team</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+    <small>&copy; 2026 Lumen Dental. All rights reserved. Stock photography via Unsplash contributors.</small>
+  </div>
+  <div class="bigmark" aria-hidden="true">Lumen</div>
+</footer>
+
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="main.js"></script>
+</body>
+</html>
